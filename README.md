@@ -3,7 +3,7 @@
  - Um grid de demonstração vem incluso (exceto no arquivo minificado);
  - Atualizado para a resolução mais usada no momento; 
 
-**Antes de qualquer coisa use a classe: '.container'**
+**Não deixe de usar a classe: '.container'**
 
 **Grid de Overlay**
 ```
