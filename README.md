@@ -1,7 +1,11 @@
 **Folha simples de estilo para quem precisa ter mais liberdade na hora da codificação do Layout;**
+ - 4Kb arquivo original / 2Kb arquivo minificado.
  - Não acompanha estilização de elementos;
- - Um grid de demonstração vem incluso (exceto no arquivo minificado);
- - Atualizado para a resolução mais usada no momento pelos usuários (1360px); 
+ - Grid de 1360px; 
+ - Com a classe .move--*, você consegue melhor posicionar a coluna dentro do Grid;
+ - São 12 colunas;
+ - Estrutura flexível;
+ - A menos de 600px as colunas se empilham verticalmente;
 
 **Classes**
 ```
