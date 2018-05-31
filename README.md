@@ -3,6 +3,11 @@
  - Um grid de demonstração vem incluso (exceto no arquivo minificado);
  - Atualizado para a resolução mais usada no momento; 
 
+**Estrutura**
+1. .container
+- .row
+- .col
+
 **Não deixe de usar a classe: '.container'**
 
 **Grid de Overlay**
