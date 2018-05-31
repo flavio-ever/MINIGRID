@@ -5,6 +5,8 @@
 
 **Classes**
 ```
+.container (width 1360px)
+
 .no-space (somente com .row)
 
 .col-1
@@ -49,7 +51,7 @@
 .move-right-12 (somente com .col-*)
 ```
 
-**Não deixe de usar a classe: '.container'**
+**Obs: Não deixe de usar a Classe: '.container'**
 
 **Grid de Overlay**
 ```
