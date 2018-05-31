@@ -17,8 +17,10 @@
 .col-8
 .col-9
 .col-10
+.col-11
+.col-12
 
-.column-overlay (após uma .col-* use como wrapper de conteúdo)
+.column-overlay (após uma .col-*, use como wrapper de conteúdo)
 
 .move-left-1 (somente com .col-*)
 .move-left-2 (somente com .col-*)
