@@ -3,6 +3,8 @@
  - Um grid de demonstração vem incluso (exceto no arquivo minificado);
  - Atualizado para a resolução mais usada no momento; 
 
+**Antes de qualquer coisa use a classe: '.container'**
+
 **Grid de Overlay**
 ```
 <div class="grid-overlay">
@@ -22,8 +24,7 @@
     </div>
 </div>
 ```
-
-**Estrutura comum do html**
+**Estrutura comum das colunas**
 ```
 <div class="row">
     <div class="col-8 move-right-2">
