@@ -7,7 +7,7 @@
 ```
 .container (width 1360px)
 
-.no-space (somente com .row)
+.no--space (somente com .row)
 
 .col--1
 .col--2
@@ -22,7 +22,7 @@
 .col--11
 .col--12
 
-.column-overlay (após uma .col-*, use como wrapper de conteúdo)
+.column-overlay (após uma .col--*, use como wrapper de conteúdo)
 
 .move--1    (somente com .col--*)
 .move--2    (somente com .col--*)
