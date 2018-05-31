@@ -3,10 +3,49 @@
  - Um grid de demonstração vem incluso (exceto no arquivo minificado);
  - Atualizado para a resolução mais usada no momento; 
 
-**Estrutura**
-1. .container
-- .row
-- .col
+**Classes**
+```
+.no-space (somente com .row)
+
+.col-1
+.col-2
+.col-3
+.col-4
+.col-5
+.col-6
+.col-7
+.col-8
+.col-9
+.col-10
+
+.column-overlay (após uma .col-* use como wrapper de conteúdo)
+
+.move-left-1 (somente com .col-*)
+.move-left-2 (somente com .col-*)
+.move-left-3 (somente com .col-*)
+.move-left-4 (somente com .col-*)
+.move-left-5 (somente com .col-*)
+.move-left-6 (somente com .col-*)
+.move-left-7 (somente com .col-*)
+.move-left-8 (somente com .col-*)
+.move-left-9 (somente com .col-*)
+.move-left-10 (somente com .col-*)
+.move-left-11 (somente com .col-*)
+.move-left-12 (somente com .col-*)
+
+.move-right-1 (somente com .col-*)
+.move-right-2 (somente com .col-*)
+.move-right-3 (somente com .col-*)
+.move-right-4 (somente com .col-*)
+.move-right-5 (somente com .col-*)
+.move-right-6 (somente com .col-*)
+.move-right-7 (somente com .col-*)
+.move-right-8 (somente com .col-*)
+.move-right-9 (somente com .col-*)
+.move-right-10 (somente com .col-*)
+.move-right-11 (somente com .col-*)
+.move-right-12 (somente com .col-*)
+```
 
 **Não deixe de usar a classe: '.container'**
 
