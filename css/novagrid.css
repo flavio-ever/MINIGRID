@@ -113,9 +113,9 @@
       margin-right  :   0;
     }
    
-    .row.no--space > 
+    .row.no--space
     [class*="col--"],
-    .row.no--space > 
+    .row.no--space 
     [class^="col--"]
     {
       padding-left  :   0;
