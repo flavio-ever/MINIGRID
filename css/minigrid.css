@@ -8,7 +8,6 @@
  ***************************************************
  ** Reset Html
  ***************************************************/
-
   *,
   *:before,
   *:after 
@@ -28,7 +27,6 @@
 /***************************************************
  ** ClearFix
  ***************************************************/
- 
   .column--overlay,
   .container,
   .container:after,
@@ -43,7 +41,6 @@
 /***************************************************
  ** columns--overlay
  ***************************************************/
-
  *[class*="col--"] > 
  .column--overlay,
  *[class^="col--"] > 
@@ -59,7 +56,6 @@
 /***************************************************
  ** Container
  ***************************************************/
-
   .container 
   {
     position    :   relative;
@@ -74,7 +70,6 @@
  ** Notes : columns: 100% / 12 columns = 8,33% (W3C)
  **         .col--*, .move--*, .row, .no--space
  ***************************************************/
-
   *[class*="col--"],
   *[class^="col--"]
   {
@@ -98,31 +93,36 @@
   .col--11  {width  : 91.66%; }    .move--11 {left : 91.66%;    }
   .col--12  {width  : 100%;   }    .move--12 {left : 100%;      }
 
-  .row 
+/***************************************************
+ ** Row
+ ***************************************************/
+  @media (min-width : 600px)
   {
-    margin-right  :   -1.333%;
-    margin-left   :   -1.333%;
-  }
-
-  .row.no--space 
-  {
-    margin-left   :   0;
-    margin-right  :   0;
-  }
- 
-  .row.no--space
-  [class*="col--"],
-  .row.no--space 
-  [class^="col--"]
-  {
-    padding-left  :   0;
-    padding-right :   0;
+    .row 
+    {
+      margin-right  :   -1.333%;
+      margin-left   :   -1.333%;
+    }
+  
+    .row.no--space 
+    {
+      margin-left   :   0;
+      margin-right  :   0;
+    }
+   
+    .row.no--space
+    [class*="col--"],
+    .row.no--space 
+    [class^="col--"]
+    {
+      padding-left  :   0;
+      padding-right :   0;
+    }
   }
 
 /***************************************************
  ** Stack
  ***************************************************/
-
   @media (max-width : 600px)
   {
     .row:not(.no--stack) 
