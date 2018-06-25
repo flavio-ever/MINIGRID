@@ -96,30 +96,28 @@
 /***************************************************
  ** Row
  ***************************************************/
-  @media (min-width : 600px)
-  {
-    .row 
-    {
-      margin-right  :   -1.333%;
-      margin-left   :   -1.333%;
-    }
-  
-    .row.no--space 
-    {
-      margin-left   :   0;
-      margin-right  :   0;
-    }
-   
-    .row.no--space
-    [class*="col--"],
-    .row.no--space 
-    [class^="col--"]
-    {
-      padding-left  :   0;
-      padding-right :   0;
-    }
-  }
 
+  .row 
+  {
+    margin-right  :   -1.333%;
+    margin-left   :   -1.333%;
+  }
+ 
+  .row.no--space 
+  {
+    margin-left   :   0;
+    margin-right  :   0;
+  }
+  
+  .row.no--space
+  [class*="col--"],
+  .row.no--space 
+  [class^="col--"]
+  {
+    padding-left  :   0;
+    padding-right :   0;
+  }
+  
 /***************************************************
  ** Stack
  ***************************************************/
